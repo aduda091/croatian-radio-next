@@ -7,6 +7,7 @@ export const getUrls = async () => {
         const pulaNewsUrl = await findLatestShowUrl(constants.channels.pula);
 
         const pulaZupanijskiDnevnikUrl = await findLatestShowUrl(constants.shows.pulaZupanijskiDnevnik);
+        const aktualnoU17Url = await findLatestShowUrl(constants.shows.aktualnoU17);
         const radioTrznicaUrl = await findLatestShowUrl(constants.shows.radioTrznica);
         const sjoraSpijaUrl = await findLatestShowUrl(constants.shows.sjoraSpija);
         const radioKalendarUrl = await findLatestShowUrl(constants.shows.radioKalendar);
@@ -17,6 +18,7 @@ export const getUrls = async () => {
             hr1NewsUrl,
             pulaNewsUrl,
             pulaZupanijskiDnevnikUrl,
+            aktualnoU17Url,
             radioTrznicaUrl,
             sjoraSpijaUrl,
             radioKalendarUrl,

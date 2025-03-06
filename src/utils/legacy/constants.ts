@@ -22,6 +22,12 @@ export default {
             downloadLinkSelector: '.download-section a',
             slug: 'zupanijski-dnevnik-radio-pule'
         },
+        aktualnoU17: {
+            //listPageUrl: 'https://radio.hrt.hr/radio-pula/emisija/zupanijski-dnevnik-radio-pule/277/',
+            latestShowSelector: 'h4.media-heading a',
+            downloadLinkSelector: '.download-section a',
+            slug: 'aktualno-u-17'
+        },
         radioTrznica: {
             listPageUrl: 'https://radio.hrt.hr/radio-pula/emisija/radiotrznica/401/',
             latestShowSelector: 'h4.media-heading a',
